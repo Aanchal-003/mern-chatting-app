@@ -1,11 +1,9 @@
 {
   "name": "gochat",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+    "start": "node backend/server.js"
   },
   "author": "Aanchal Mittal",
   "license": "ISC",
@@ -20,5 +18,15 @@
     "mongoose": "^6.4.0",
     "react-router-dom": "^5.3.3",
     "socket.io": "^4.5.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aanchal-003/mern-chatting-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aanchal-003/mern-chatting-app/issues"
+  },
+  "homepage": "https://github.com/Aanchal-003/mern-chatting-app#readme",
+  "description": ""
 }
